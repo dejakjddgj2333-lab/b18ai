@@ -1,0 +1,185 @@
+/* Element Plus 深色主题覆盖 */
+
+/* 按钮 */
+.el-button--primary {
+  background: linear-gradient(135deg, #7B5CFF 0%, #9F7AEA 100%) !important;
+  border: none !important;
+}
+
+.el-button--primary:hover {
+  background: linear-gradient(135deg, #8b6cff 0%, #af8afa 100%) !important;
+}
+
+/* 输入框 */
+.el-input__wrapper {
+  background: rgba(255, 255, 255, 0.03) !important;
+  box-shadow: 0 0 0 1px rgba(123, 92, 255, 0.1) inset !important;
+}
+
+.el-input__wrapper:hover {
+  box-shadow: 0 0 0 1px rgba(123, 92, 255, 0.2) inset !important;
+}
+
+.el-input__wrapper.is-focus {
+  box-shadow: 0 0 0 1px rgba(123, 92, 255, 0.4) inset !important;
+}
+
+.el-input__inner {
+  color: rgba(255, 255, 255, 0.85) !important;
+}
+
+.el-input__inner::placeholder {
+  color: rgba(255, 255, 255, 0.25) !important;
+}
+
+/* 文本域 */
+.el-textarea__inner {
+  background: rgba(255, 255, 255, 0.03) !important;
+  box-shadow: 0 0 0 1px rgba(123, 92, 255, 0.1) inset !important;
+  color: rgba(255, 255, 255, 0.85) !important;
+}
+
+.el-textarea__inner::placeholder {
+  color: rgba(255, 255, 255, 0.25) !important;
+}
+
+/* 标签 */
+.el-tag--success {
+  --el-tag-bg-color: rgba(95, 227, 175, 0.1) !important;
+  --el-tag-border-color: rgba(95, 227, 175, 0.2) !important;
+  --el-tag-text-color: #5fe3af !important;
+}
+
+.el-tag--warning {
+  --el-tag-bg-color: rgba(255, 201, 94, 0.1) !important;
+  --el-tag-border-color: rgba(255, 201, 94, 0.2) !important;
+  --el-tag-text-color: #ffc95e !important;
+}
+
+.el-tag--danger {
+  --el-tag-bg-color: rgba(255, 115, 115, 0.1) !important;
+  --el-tag-border-color: rgba(255, 115, 115, 0.2) !important;
+  --el-tag-text-color: #ff7373 !important;
+}
+
+.el-tag--info {
+  --el-tag-bg-color: rgba(255, 255, 255, 0.03) !important;
+  --el-tag-border-color: rgba(123, 92, 255, 0.1) !important;
+  --el-tag-text-color: rgba(255, 255, 255, 0.5) !important;
+}
+
+/* 对话框 */
+.el-dialog {
+  background: #0c1220 !important;
+  border: 1px solid rgba(123, 92, 255, 0.1) !important;
+  border-radius: 20px !important;
+}
+
+.el-dialog__title {
+  color: #fff !important;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 600;
+}
+
+.el-dialog__body {
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+
+/* 消息提示 */
+.el-message--success {
+  background: rgba(95, 227, 175, 0.1) !important;
+  border-color: rgba(95, 227, 175, 0.2) !important;
+}
+
+.el-message--error {
+  background: rgba(255, 115, 115, 0.1) !important;
+  border-color: rgba(255, 115, 115, 0.2) !important;
+}
+
+.el-message--warning {
+  background: rgba(255, 201, 94, 0.1) !important;
+  border-color: rgba(255, 201, 94, 0.2) !important;
+}
+
+.el-message--info {
+  background: rgba(123, 92, 255, 0.1) !important;
+  border-color: rgba(123, 92, 255, 0.2) !important;
+}
+
+/* Message Box */
+.el-message-box {
+  background: #0c1220 !important;
+  border: 1px solid rgba(123, 92, 255, 0.1) !important;
+  border-radius: 20px !important;
+}
+
+.el-message-box__title {
+  color: #fff !important;
+}
+
+.el-message-box__message {
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+
+/* 进度条 */
+.el-progress-bar__outer {
+  background: rgba(255, 255, 255, 0.04) !important;
+}
+
+/* 表格深色主题 */
+.el-table {
+  --el-table-bg-color: transparent;
+  --el-table-tr-bg-color: transparent;
+  --el-table-header-bg-color: rgba(255, 255, 255, 0.02);
+  --el-table-row-hover-bg-color: rgba(123, 92, 255, 0.05);
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.el-table th.el-table__cell {
+  background: rgba(255, 255, 255, 0.02) !important;
+  color: rgba(255, 255, 255, 0.6) !important;
+}
+
+.el-table td.el-table__cell {
+  border-bottom: 1px solid rgba(123, 92, 255, 0.06) !important;
+}
+
+.el-table::before {
+  display: none;
+}
+
+/* Loading 遮罩 */
+.el-loading-mask {
+  background: rgba(1, 5, 16, 0.7) !important;
+  backdrop-filter: blur(4px);
+}
+
+/* 滚动条 */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(123, 92, 255, 0.15);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(123, 92, 255, 0.25);
+}
+
+/* 骨架屏深色主题 */
+.el-skeleton {
+  --el-skeleton-color: rgba(123, 92, 255, 0.08) !important;
+  --el-skeleton-to-color: rgba(123, 92, 255, 0.15) !important;
+}
+
+.el-skeleton__item {
+  background: linear-gradient(90deg, rgba(123, 92, 255, 0.06) 25%, rgba(123, 92, 255, 0.12) 50%, rgba(123, 92, 255, 0.06) 75%) !important;
+  background-size: 400% 100% !important;
+}
